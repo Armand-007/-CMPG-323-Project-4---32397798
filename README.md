@@ -11,3 +11,6 @@ In Project 4 we used UIPath to automate user acceptance testing.
 8) A "For-each-row-in-datatable" activity is used to iterate the sheet row by row and enter the data on the web page.
 
 To use the program the user only needs to run it, as everything is automated UIPath will enter all the needed information.
+The data from the excel file "Connected Office Test Data" is read by the program sheet by sheet into a Data Table.
+UIPath opens the browser/web page Connected Office, and check to see if it is needed to login or not, after that it will select zone from the menu and
+add a new zone, edit it and then delete it, it will do this for all the rows in the sheet after which it will continue to Categories and the Device.
